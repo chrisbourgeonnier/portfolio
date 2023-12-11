@@ -6,10 +6,25 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Portfolio" %></title>
+    <title><%= current_page.data.title || "Chris' Portfolio" %></title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
+    <meta name="description" content="My portfolio site as a Full-Stack Web Developer">
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="NAME OF MY SITE | MY TITLE" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="THE_URL_OF_MY_PORTFOLIO" />
+    <meta property="og:image" content="<%= image_path 'MY_OG_IMAGE_WITH_RIGHT_SIZE.png' %>" />
+    <meta property="og:description" content="Description of my portfolio site" />
+    <meta property="og:site_name" content="NAME OF MY SITE | MY TITLE" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@twitter_handle">
+    <meta name="twitter:title" content="NAME OF MY SITE | MY TITLE">
+    <meta name="twitter:description" content="Description of my portfolio site">
+    <meta name="twitter:creator" content="@twitter_handle">
+    <meta name="twitter:image:src" content="<%= image_path 'MY_OG_IMAGE_WITH_RIGHT_SIZE.png' %>">
   </head>
   <body>
     <%= yield %>
