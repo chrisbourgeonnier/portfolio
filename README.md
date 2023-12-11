@@ -1,4 +1,4 @@
-# Middleman Template
+# Middleman Template (new)
 A simple way to build static pages with a Rails feel.
 
 ## Using
