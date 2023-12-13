@@ -1,24 +1,30 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Basho
+  slogan: A map of your best memories, past and yet to come
+  description: BASHO is a mobile-first web app where users can curate their map of Tokyo with the places that matter to them. As opposed to Google Maps, BASHO lets them sort and customize their pins, but most of all, it allows them to create as many tags as they want to label their places and easily find them later on.
+  image: projects/basho.jpg
+  detail: basho.html
+  git: https://github.com/chrisbourgeonnier/basho
+  url: https://www.basho-app.me/
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: HeroHub
+  slogan: In dire need for supernatural powers? Book a day with your favorite SuperHero.
+  description: HeroHub is a computer-first web app where users can book a superhero for a day. The project is a C2C platform working like an AirBnB website, where users can book a service, and owners(superheroes) can either choose to accept or decline the booking.
+  image: projects/herohub.jpg
+  detail: herohub.html
+  git: https://github.com/chrisbourgeonnier/herohub
+  url: https://herohub-tokyo-b8670f0c5306.herokuapp.com/
 
 - name: Airbnb
   description: Decent description of the app
   image: projects/placeholder.png
-  url: https://www.google.com
+  url: none
 
 - name: Final project
   description: Decent description of the app
   image: projects/placeholder.png
-  url: https://www.google.com
+  url: none
 
 - name: Yelp
   description: Decent description of the app
   image: projects/placeholder.png
-  url: https://www.google.com
+  url: none
