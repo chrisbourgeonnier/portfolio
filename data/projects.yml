@@ -1,8 +1,9 @@
 - name: Basho
   slogan: A map of your best memories, past and yet to come
-  description: BASHO is a mobile-first web app where users can curate their map of Tokyo with the places that matter to them. As opposed to Google Maps, BASHO lets them sort and customize their pins, but most of all, it allows them to create as many tags as they want to label their places and easily find them later on.
+  description: BASHO is a mobile-first web app where users can curate their map of Tokyo with the places that matter to them. Unlike Google Maps, BASHO lets them sort and customize their pins, but most of all, it allows them to create as many tags as they want to label their places and easily find them later on.
   image: projects/basho.jpg
   detail: basho.html
+  tech: Ruby on Rails - JavaScript StimulusJS - Bootstrap - PostgreSQL - Heroku - Figma
   git: https://github.com/chrisbourgeonnier/basho
   url: https://www.basho-app.me/
 
@@ -11,20 +12,20 @@
   description: HeroHub is a computer-first web app where users can book a superhero for a day. The project is a C2C platform working like an AirBnB website, where users can book a service, and owners(superheroes) can either choose to accept or decline the booking.
   image: projects/herohub.jpg
   detail: herohub.html
+  tech: Ruby on Rails - JavaScript StimulusJS - Bootstrap - PostgreSQL - Heroku
   git: https://github.com/chrisbourgeonnier/herohub
   url: https://herohub-tokyo-b8670f0c5306.herokuapp.com/
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: none
+# - name: Project
+#   slogan:
+#   description: None.
+#   image: projects/placeholder.png
+#   git: none
+#   url: none
 
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: none
-
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: none
+# - name: Final project
+#   slogan:
+#   description: Decent description of the app
+#   image: projects/placeholder.png
+#   git: none
+#   url: none
