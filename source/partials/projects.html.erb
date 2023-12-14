@@ -16,11 +16,11 @@
                 </div>
                 <h3><%= project.slogan %></h3>
                 <p><%= project.description %></p>
-                <p class="my-2">Tech list</p>
+                <p class="my-2"><%= project.tech %></p>
                 <div class="d-flex align-items-center my-2">
-                  <% link_to project.detail, class: 'links mx-2', target: '_blank' do %>
-                    <button class="btn btn-flat">More Details</button>
-                  <% end %>
+                  <%# <% link_to project.detail, class: 'links mx-2', target: '_blank' do %>
+                    <%# <button class="btn btn-flat">More Details</button> %>
+                  <%# <% end %>
                   <% link_to project.git, class: 'links mx-2', target: '_blank' do %>
                     <button class="btn btn-flat">GitHub</button>
                   <% end %>
