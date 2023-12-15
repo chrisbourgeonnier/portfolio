@@ -3,7 +3,7 @@
   description: BASHO is a mobile-first web app where users can curate their map of Tokyo with the places that matter to them. Unlike Google Maps, BASHO lets them sort and customize their pins, but most of all, it allows them to create as many tags as they want to label their places and easily find them later on.
   image: projects/basho.jpg
   detail: basho.html
-  tech: Ruby on Rails - JavaScript StimulusJS - Bootstrap - PostgreSQL - Heroku - Figma
+  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-bootstrap-plain-wordmark"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i class="devicon-heroku-line-wordmark"></i> <i class="devicon-figma-plain"></i>
   git: https://github.com/chrisbourgeonnier/basho
   url: https://www.basho-app.me/
 
@@ -12,9 +12,27 @@
   description: HeroHub is a computer-first web app where users can book a superhero for a day. The project is a C2C platform working like an AirBnB website, where users can book a service, and owners(superheroes) can either choose to accept or decline the booking.
   image: projects/herohub.jpg
   detail: herohub.html
-  tech: Ruby on Rails - JavaScript StimulusJS - Bootstrap - PostgreSQL - Heroku
+  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-bootstrap-plain-wordmark"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i class="devicon-heroku-line-wordmark"></i>
   git: https://github.com/chrisbourgeonnier/herohub
   url: https://herohub-tokyo-b8670f0c5306.herokuapp.com/
+
+- name: My Akiya Home - Landing page
+  slogan: Finding a house in Japan has never been easier!
+  description: A simple landing page deployed as a GitHub page.
+  image: projects/akiya.jpg
+  detail: akiya.html
+  tech: <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-git-plain-wordmark"></i> GitHub Pages
+  git: https://github.com/chrisbourgeonnier/landing/
+  url: https://chrisbourgeonnier.github.io/landing/
+
+- name: Profile
+  slogan: A Profile Page with an Iron Man twist
+  description: This page was created to practice HTML, CSS and deploy GitHub pages.
+  image: projects/iron_man.jpg
+  detail: profile.html
+  tech: <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-git-plain-wordmark"></i> GitHub Pages
+  git: https://github.com/chrisbourgeonnier/profile/
+  url: https://chrisbourgeonnier.github.io/profile/
 
 # - name: Project
 #   slogan:
