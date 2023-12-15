@@ -14,7 +14,7 @@
 
   border-radius: 20px;
   box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-  cursor: pointer;
+  // cursor: pointer;
   transition: 0.4s;
 }
 
@@ -30,9 +30,10 @@
   object-fit: cover;
 }
 
-.card-product h2 {
+.external-link h2 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 800;
+  font-stretch: expanded;
   margin: 0;
 }
 
@@ -52,11 +53,6 @@
 
 .card-product .card-product-infos {
   padding: 16px;
-  &:hover {
-    .external-link {
-      opacity: 1;
-    }
-  }
 }
 
 .links {
@@ -71,12 +67,12 @@
 
 .external-link {
   margin-left: 8px;
-  opacity: 0;
-  color: $gray;
-  transition: opacity 1s;
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
   &:hover {
     cursor: pointer;
-    color: $gray
+    color: gray;
   }
 }
 
@@ -84,9 +80,6 @@
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
-  }
-  .external-link {
-    opacity: 1;
   }
   .card-product {
     height: 600px;
@@ -98,9 +91,6 @@
   .cards {
     grid-template-columns: 1fr;
   }
-  .external-link {
-    opacity: 1;
-  }
   .card-product {
     height: 500px;
   }
@@ -110,9 +100,6 @@
 @media (min-width: 768px) {
   .cards {
     // grid-template-columns: 1fr 1fr;
-  }
-  .external-link {
-    opacity: 0;
   }
   .card-product {
     height: 350px;
