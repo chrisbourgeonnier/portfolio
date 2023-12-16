@@ -21,7 +21,7 @@
   description: A simple landing page deployed as a GitHub page.
   image: projects/akiya.jpg
   detail: akiya.html
-  tech: <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-git-plain-wordmark"></i> GitHub Pages
+  tech: <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
   git: https://github.com/chrisbourgeonnier/landing/
   url: https://chrisbourgeonnier.github.io/landing/
 
@@ -30,7 +30,7 @@
   description: This page was created to practice HTML, CSS and deploy GitHub pages.
   image: projects/iron_man.jpg
   detail: profile.html
-  tech: <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-git-plain-wordmark"></i> GitHub Pages
+  tech: <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
   git: https://github.com/chrisbourgeonnier/profile/
   url: https://chrisbourgeonnier.github.io/profile/
 
