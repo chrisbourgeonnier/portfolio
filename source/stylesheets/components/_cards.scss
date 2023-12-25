@@ -81,12 +81,24 @@ i {
   padding: 0 5px;
 }
 
+.card-canvas {
+  overflow: hidden;
+  height: 350px;
+  background: rgb(250, 248, 220);
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: url("../../images/paintbrush.png"), auto;
+}
+
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
   }
-  .card-product {
+  .card-product,
+  .card-canvas {
     height: 600px;
   }
 }
@@ -96,7 +108,8 @@ i {
   .cards {
     grid-template-columns: 1fr;
   }
-  .card-product {
+  .card-product,
+  .card-canvas {
     height: 500px;
   }
 }
@@ -106,7 +119,8 @@ i {
   .cards {
     // grid-template-columns: 1fr 1fr;
   }
-  .card-product {
+  .card-product,
+  .card-canvas {
     height: 350px;
   }
 }
@@ -116,7 +130,8 @@ i {
   .cards {
     // grid-template-columns: 1fr 1fr;
   }
-  .card-product {
+  .card-product,
+  .card-canvas {
     height: 300px;
   }
 }
@@ -126,7 +141,8 @@ i {
   .cards {
     // grid-template-columns: 1fr 1fr;
   }
-  .card-product {
+  .card-product,
+  .card-canvas {
     height: 280px;
   }
 }
@@ -136,7 +152,8 @@ i {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
-  .card-product {
+  .card-product,
+  .card-canvas {
     height: 400px;
   }
 }
