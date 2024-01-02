@@ -1,12 +1,25 @@
 // Specific CSS for your home-page
 #projects h2,
+#video h2,
 #canvas h2 {
   font-weight: 600;
-  padding: 10px 0;
+  padding: 10px 0 0 0;
 }
 
-#canvas h5 {
-  padding: 0 0 5px 0;
+#projects h5,
+#canvas h5,
+#video h5 {
+  padding: 0 0 10px 0;
+}
+
+h4 {
+  padding: 0 0 10px 0;
+  margin-bottom: 5px;
+}
+
+.egg {
+  font-size: 20px;
+  margin-top: 5px;
 }
 
 body {
