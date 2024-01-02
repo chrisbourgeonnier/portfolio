@@ -3,29 +3,36 @@
     <div id="contact">
       <div class="d-flex justify-content-center flex-wrap my-5">
         <div>
-          <h4>Resume:</h4>
+          <div>
+            <h4>Resume</h4>
+          </div>
+          <div class="button-social d-flex flex-column justify-content-center align-items-center py-2">
+            <i class="fa-regular fa-address-card fa-xl"></i>
+            <%= link_to "", "https://bourgeonnier.files.wordpress.com/2024/01/chris-bourgeonnier-resume-2024-1.pdf", target: '_blank', class: 'button-social-link' %>
+          </div>
         </div>
-        <div class="button-social d-flex flex-column justify-content-center align-items-center">
-          <i class="fa-regular fa-address-card fa-xl"></i>
-          <%= link_to "", "https://bourgeonnier.files.wordpress.com/2024/01/chris-bourgeonnier-resume-2024-1.pdf", target: '_blank', class: 'button-social-link' %>
-        </div>
-        <div class="button-social d-flex flex-column justify-content-center align-items-center">
-          <i class="fa-solid fa-circle fa-2xs"></i>
+        <div class="button-social d-flex px-5 my-auto">
+          <i class="fa-solid fa-egg egg"></i>
+          <%= link_to "", "https://chrisbourgeonnier.github.io/easter-egg/", target: '_blank', class: 'button-social-link' %>
         </div>
         <div>
-          <h4>Contact me:</h4>
-        </div>
-        <div class="button-social d-flex flex-column justify-content-center align-items-center">
-          <i class="fa-brands fa-github fa-xl"></i>
-          <%= link_to "", "https://github.com/chrisbourgeonnier", target: '_blank', class: 'button-social-link' %>
-        </div>
-        <div class="button-social d-flex flex-column justify-content-center align-items-center">
-          <i class="fa-brands fa-linkedin fa-xl"></i>
-          <%= link_to "", "https://www.linkedin.com/in/chrisbourgeonnier/", target: '_blank', class: 'button-social-link' %>
-        </div>
-        <div class="button-social d-flex flex-column justify-content-center align-items-center">
-          <i class="fa-brands fa-wordpress fa-xl"></i>
-          <%= link_to "", "https://bourgeonnier.wordpress.com", target: '_blank', class: 'button-social-link' %>
+          <div class="d-flex align-items-center justify-content-center">
+            <h4>Contact me</h4>
+          </div>
+          <div class="d-flex justify-content-between py-2">
+            <div class="button-social d-flex flex-column justify-content-center align-items-center">
+              <i class="fa-brands fa-github fa-xl"></i>
+              <%= link_to "", "https://github.com/chrisbourgeonnier", target: '_blank', class: 'button-social-link' %>
+            </div>
+            <div class="button-social d-flex flex-column justify-content-center align-items-center">
+              <i class="fa-brands fa-linkedin fa-xl"></i>
+              <%= link_to "", "https://www.linkedin.com/in/chrisbourgeonnier/", target: '_blank', class: 'button-social-link' %>
+            </div>
+            <div class="button-social d-flex flex-column justify-content-center align-items-center">
+              <i class="fa-brands fa-wordpress fa-xl"></i>
+              <%= link_to "", "https://bourgeonnier.wordpress.com", target: '_blank', class: 'button-social-link' %>
+            </div>
+          </div>
         </div>
       </div>
     </div>
