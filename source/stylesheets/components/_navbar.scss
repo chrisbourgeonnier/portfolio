@@ -10,3 +10,29 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.navigation-buttons {
+  flex-wrap: wrap;
+}
+
+.navigation-button {
+  padding: 2px 10px;
+  position: relative;
+  font-size: 16px;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.navigation-button-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.navigation-button i {
+  padding-bottom: 5px;
+  font-size: 20px;
+}
