@@ -19,7 +19,7 @@
 - name: GIF Search
   slogan: A Giphy GIF Searcher
   description: A small app built with React letting you search for fun GIFs with the Giphy API.
-  image: projects/react-giphy.jpg
+  image: projects/react-giphy2.jpg
   detail: react-giphy.html
   tech: <i class="devicon-react-original-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i>
   git: https://github.com/chrisbourgeonnier/react-giphy/
@@ -30,7 +30,7 @@
   description: The filtering app uses AJAX to asynchronously update a list of suggestions without reloading the page. The data comes from a JSON file with over 10,000 French cities.
   image: projects/french-cities.jpg
   detail: french-cities.html
-  tech: AJAX   JSON  <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
+  tech: AJAX   JSON  <i class="devicon-javascript-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
   git: https://github.com/chrisbourgeonnier/city-search-france
   url: https://chrisbourgeonnier.github.io/city-search-france/
 
@@ -51,17 +51,3 @@
   tech: <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
   git: https://github.com/chrisbourgeonnier/profile/
   url: https://chrisbourgeonnier.github.io/profile/
-
-# - name: Project
-#   slogan:
-#   description: None.
-#   image: projects/placeholder.png
-#   git: none
-#   url: none
-
-# - name: Final project
-#   slogan:
-#   description: Decent description of the app
-#   image: projects/placeholder.png
-#   git: none
-#   url: none
