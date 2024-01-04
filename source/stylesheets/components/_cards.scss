@@ -1,6 +1,6 @@
 .cards {
   display: grid;
-  // grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
 }
 
@@ -34,6 +34,8 @@
 .card-video {
   border-radius: 20px;
   box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  width: 560px;
+  height: 350px;
 }
 
 .external-link h2 {
@@ -103,13 +105,16 @@ i {
 // XXL devices (large desktops, 1400px and up)
 @media (max-width: 1400px) {
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .card-product,
   .card-canvas {
     height: 400px;
-    flex-direction: row;
   }
+
+  // .card-video {
+  //   width: auto;
+  // }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -120,19 +125,20 @@ i {
   .card-product,
   .card-canvas {
     height: 280px;
-    flex-direction: row;
   }
+
 }
 
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) {
   .cards {
-    // grid-template-columns: 1fr 1fr;
   }
   .card-product,
   .card-canvas {
     height: 300px;
-    flex-direction: row;
+  }
+  .card-video {
+    width: 100%;
   }
 }
 
@@ -144,8 +150,14 @@ i {
   }
   .card-product,
   .card-canvas {
-    height: 450px;
-    flex-direction: row;
+    height: 550px;
+    flex-direction: column;
+  }
+
+  .card-product img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -169,5 +181,4 @@ i {
     height: 300px;
     width: 100%;
   }
-
 }
