@@ -98,7 +98,39 @@ i {
   border-radius: 20px;
   box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
   cursor: url("../../images/paintbrush.png"), auto;
+  z-index: 999;
 }
+
+.save button {
+  width: 80px;
+  margin: auto 5px auto -5px;
+  padding: 30px 5px;
+
+  background-color: rgb(61, 61, 61);
+  color: white;
+  border-radius: 0 20px 20px 0;
+
+}
+
+.strip {
+  padding: 2rem;
+}
+
+.strip img {
+  width: 150px;
+  overflow-x: scroll;
+  padding: 0.8rem 0.8rem 2.5rem 0.8rem;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+  background: rgb(250, 248, 220);
+  border: solid 2px rgb(41, 40, 36);
+}
+
+.strip a:nth-child(5n+1) img { transform: rotate(10deg); }
+.strip a:nth-child(5n+2) img { transform: rotate(-2deg); }
+.strip a:nth-child(5n+3) img { transform: rotate(8deg); }
+.strip a:nth-child(5n+4) img { transform: rotate(-11deg); }
+.strip a:nth-child(5n+5) img { transform: rotate(12deg); }
+
 // ------------------ Responsive Design ---------------------
 // Small devices (landscape phones, 576px and up)
 
