@@ -38,11 +38,20 @@
   height: 350px;
 }
 
-.external-link h2 {
+.external-link {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+  &:hover {
+    cursor: pointer;
+    color: gray;
+  }
+}
+
+.project-name {
   font-size: 24px;
   font-weight: 800;
   font-stretch: expanded;
-  margin: 0;
 }
 
 .card-product h3 {
@@ -70,17 +79,6 @@
   &:hover {
     cursor: pointer;
     background-color: #b7c9d1;
-  }
-}
-
-.external-link {
-  margin-left: 8px;
-  color: black;
-  text-decoration: none;
-  transition: 0.5s;
-  &:hover {
-    cursor: pointer;
-    color: gray;
   }
 }
 
