@@ -6,7 +6,7 @@
 
 .card-product {
   overflow: hidden;
-  height: 350px;
+  height: 340px;
   background: white;
   // box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -89,7 +89,7 @@ i {
 
 .card-canvas {
   overflow: hidden;
-  height: 350px;
+  height: 400px;
   background: rgb(250, 248, 220);
   display: flex;
   align-items: center;
@@ -137,9 +137,8 @@ i {
   .cards {
     grid-template-columns: 1fr;
   }
-  .card-product,
-  .card-canvas {
-    height: 400px;
+  .card-product {
+    height: 280px;
   }
 
   // .card-video {
@@ -152,20 +151,23 @@ i {
   .cards {
     grid-template-columns: 1fr;
   }
-  .card-product,
-  .card-canvas {
+  .card-product {
     height: 280px;
   }
-
+  .card-canvas {
+    height: 400px;
+  }
 }
 
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) {
   .cards {
   }
-  .card-product,
-  .card-canvas {
+  .card-product {
     height: 300px;
+  }
+  .card-canvas {
+    height: 350px;
   }
   .card-video {
     width: 100%;
