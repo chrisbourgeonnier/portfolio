@@ -1,6 +1,6 @@
 - name: Basho
   slogan: A map of your best memories, past and yet to come
-  description: BASHO is a mobile-first web app where users can curate their map of Tokyo with the places that matter to them. Unlike Google Maps, BASHO lets them sort and customize their pins, but most of all, it allows them to create as many tags as they want to label their places and easily find them later on.
+  description: BASHO is a mobile-first web app in which you can curate your map of Tokyo with the places that matter to you. BASHO lets you sort and customize your pins, use your own photo, and allows you to create as many tags as you want to label your places and easily find them again.
   image: projects/basho.jpg
   detail: basho.html
   tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-bootstrap-plain-wordmark"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i class="devicon-heroku-line-wordmark"></i> <i class="devicon-figma-plain"></i>
