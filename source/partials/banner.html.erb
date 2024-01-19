@@ -1,7 +1,18 @@
-<div class="row justify-content-center banner">
-  <div class="d-flex flex-column my-auto align-items-center">
-    <%= image_tag 'profile-photo.jpg', alt: "profile photo", class: 'avatar-large py-2' %>
-    <h1 class="title-main py-2">Chris Bourgeonnier</h1>
+<div class="d-flex flex-column my-auto align-items-center">
+  <%= image_tag 'profile-photo.jpg', alt: "profile photo", class: 'avatar-large py-2' %>
+  <h1 class="title-main">Chris Bourgeonnier</h1>
+  <div class="d-flex justify-content-center">
+  <div class="button-social d-flex flex-column justify-content-center align-items-center py-4 px-2">
+    <i class="fa-brands fa-github fa-lg"></i>
+    <%= link_to " ", "https://github.com/chrisbourgeonnier", target: '_blank', class: 'button-social-link' %>
   </div>
-
+  <div class="button-social d-flex flex-column justify-content-center align-items-center py-4 px-2">
+    <i class="fa-brands fa-linkedin fa-lg"></i>
+    <%= link_to " ", "https://www.linkedin.com/in/chrisbourgeonnier/", target: '_blank', class: 'button-social-link' %>
+  </div>
+  <div class="button-social d-flex flex-column justify-content-center align-items-center py-4 px-2">
+    <i class="fas fa-envelope fa-lg"></i>
+    <%= mail_to 'chrisbourgeonnier__at__gmail.com', "", class: 'button-social-link' %>
+  </div>
+</div>
 </div>

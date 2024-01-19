@@ -1,40 +1,84 @@
 <div class="row my-5">
   <div class="col-12">
     <div id="contact">
+
       <div class="d-flex justify-content-center flex-wrap my-5">
+        <%# Resume side %>
         <div>
-          <div>
+          <div class="d-flex align-items-center justify-content-center">
             <h4>Resume</h4>
           </div>
-          <div class="button-social d-flex flex-column justify-content-center align-items-center py-2">
-            <i class="fa-regular fa-address-card fa-xl"></i>
-            <%= link_to "", "https://bourgeonnier.files.wordpress.com/2024/01/chris-bourgeonnier-resume-2024-1.pdf", target: '_blank', class: 'button-social-link' %>
+          <div class="d-flex justify-content-center">
+            <div class="button-social d-flex justify-content-center align-items-center py-2">
+              <i class="fa-regular fa-address-card fa-xl"></i>
+              <%= link_to "", "images/chris-resume-2024-01.pdf", target: '_blank', class: 'button-social-link' %>
+            </div>
           </div>
         </div>
+
+        <%# Easter Egg %>
         <div class="button-social d-flex px-5 my-auto">
           <i class="fa-solid fa-egg egg"></i>
           <%= link_to "", "https://chrisbourgeonnier.github.io/easter-egg/", target: '_blank', class: 'button-social-link' %>
         </div>
+
+        <%# Contact Me side %>
         <div>
           <div class="d-flex align-items-center justify-content-center">
             <h4>Contact me</h4>
           </div>
-          <div class="d-flex justify-content-between py-2">
-            <div class="button-social d-flex flex-column justify-content-center align-items-center">
+          <div class="d-flex justify-content-between">
+            <div class="button-social d-flex flex-column justify-content-center align-items-center py-2">
               <i class="fa-brands fa-github fa-xl"></i>
-              <%= link_to "", "https://github.com/chrisbourgeonnier", target: '_blank', class: 'button-social-link' %>
+              <%= link_to " ", "https://github.com/chrisbourgeonnier", target: '_blank', class: 'button-social-link' %>
             </div>
-            <div class="button-social d-flex flex-column justify-content-center align-items-center">
+            <div class="button-social d-flex flex-column justify-content-center align-items-center py-2">
               <i class="fa-brands fa-linkedin fa-xl"></i>
-              <%= link_to "", "https://www.linkedin.com/in/chrisbourgeonnier/", target: '_blank', class: 'button-social-link' %>
+              <%= link_to " ", "https://www.linkedin.com/in/chrisbourgeonnier/", target: '_blank', class: 'button-social-link' %>
             </div>
-            <div class="button-social d-flex flex-column justify-content-center align-items-center">
-              <i class="fa-brands fa-wordpress fa-xl"></i>
-              <%= link_to "", "https://bourgeonnier.wordpress.com", target: '_blank', class: 'button-social-link' %>
+            <div class="button-social d-flex flex-column justify-content-center align-items-center px-2">
+              <i class="fas fa-envelope fa-xl"></i>
+              <%= mail_to 'chrisbourgeonnier__at__gmail.com', "", class: 'button-social-link' %>
             </div>
           </div>
         </div>
+
       </div>
+
+      <%# Tech Stack section %>
+      <div class="d-flex justify-content-center flex-wrap my-5">
+        <div class="d-flex flex-row flex-wrap justify-content-center align-items-center py-2">
+          <p class="my-0 px-2">Made with ❤, and </p>
+          <img class="px-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/>
+          <img class="px-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40"/>
+          <img class="px-1" src="https://raw.githubusercontent.com/leungwensen/svg-icon/b84b3f3a3da329b7c1d02346865f8e98beb05413/dist/svg/logos/middleman.svg" alt="middleman" width="40" height="40"/>
+          <img class="px-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+          <img class="px-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+          <img class="px-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" title="Sass" alt="Sass" width="40" height="40"/>
+          <img class="px-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
+          <img class="px-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+          <img class="px-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="40" height="40"/>
+          <img class="px-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="40" height="40"/>
+
+          <img class="px-1" src="https://upload.wikimedia.org/wikipedia/commons/9/97/Netlify_logo_%282%29.svg" alt="netlify" width="80" height="40"/>
+        </div>
+      </div>
+
+      <%# Blogs section %>
+      <div class="d-flex justify-content-center my-5">
+        <div class="button-social d-flex flex-row justify-content-center align-items-center py-2">
+          <p class="my-0">Coder Chris, My Journey learning Web Development</p>
+          <i class="fa-brands fa-wordpress fa-lg"></i>
+          <%= link_to " ", "https://bourgeonnier.wordpress.com", target: '_blank', class: 'button-social-link' %>
+        </div>
+        <div class="button-social d-flex flex-row justify-content-center align-items-center py-2">
+          <p class="my-0">My other blog about Interior Architecture</p>
+          <i class="fa-brands fa-wordpress fa-lg"></i>
+          <%= link_to " ", "https://chrisbourgeonnier.wordpress.com", target: '_blank', class: 'button-social-link' %>
+        </div>
+      </div>
+
+
     </div>
   </div>
 </div>
