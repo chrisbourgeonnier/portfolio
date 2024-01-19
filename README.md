@@ -2,7 +2,9 @@
 
 This is my Full-Stack Developer Portfolio
 <br>
-<img width="500" alt="portfolio" src="https://github.com/chrisbourgeonnier/portfolio/assets/139029314/cfa4427f-b7c4-4b3c-9c11-2f8e4b80bad6">
+<img height="400" alt="portfolio" src="https://github.com/chrisbourgeonnier/portfolio/assets/139029314/bb675448-bc6a-4522-be65-d8524f906382">
+<img height="400" alt="portfolio" src="https://github.com/chrisbourgeonnier/portfolio/assets/139029314/a6eada30-0c21-47f4-83c5-f2a97f1c95a7">
+<img height="400" alt="portfolio" src="https://github.com/chrisbourgeonnier/portfolio/assets/139029314/95d3335b-36ad-4324-a73f-4e613fda4dc5">
 <br>
 Visible at: chrisbourgeonnier.me
    
