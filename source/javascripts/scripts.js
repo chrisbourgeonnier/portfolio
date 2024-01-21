@@ -18,6 +18,7 @@ let hue = 0;
 let direction = true;
 
 function draw(e) {
+  e.preventDefault()
   if (!isDrawing) return;
   console.log(e);
   ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`
@@ -43,14 +44,15 @@ function draw(e) {
   }
 }
 
-canvas.addEventListener('mousedown', (e) => {
+canvas.addEventListener('pointerdown', (e) => {
+  e.preventDefault()
   isDrawing = true;
   [lastX, lastY] = [e.offsetX, e.offsetY];
 });
 
-canvas.addEventListener('mousemove', draw);
-canvas.addEventListener('mouseup', () => isDrawing = false);
-canvas.addEventListener('mouseout', () => isDrawing = false);
+canvas.addEventListener('pointermove', draw);
+canvas.addEventListener('pointerup', () => isDrawing = false);
+canvas.addEventListener('pointerout', () => isDrawing = false);
 
 function saveCanvas() {
   // take the data out of the canvas
