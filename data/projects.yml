@@ -18,6 +18,16 @@
   git: https://github.com/chrisbourgeonnier/herohub
   url: https://herohub-tokyo-b8670f0c5306.herokuapp.com/
 
+- name: Chris' Blog
+  featured: none
+  slogan: A not-so-serious blog about AI and stuff
+  description: A blog app based on the GoRails blog project. It runs on Ruby/Rails, with gems like Devise for authentication, pagy (pagination), vips (active storage image processor), action_text (to edit rich text). The website is hosted on Render with a PostGreSQL database, media content is stored on AWS S3 and Tailwind handles the CSS.
+  image: projects/blog03.jpg
+  detail: blog.html
+  tech: <i title="Ruby" class="devicon-ruby-plain-wordmark"></i><i title="Rails" class="devicon-rails-plain-wordmark"></i><i title="PostGreSQL" class="devicon-postgresql-plain-wordmark"></i><i title="Amazon Web Services" class="fa-brands fa-aws"></i><i title="JavaScript" class="fa-brands fa-js"></i><i title="TailwindCSS" class="devicon-tailwindcss-plain"></i><i title="CSS3" class="devicon-css3-plain-wordmark"></i><i title="HTML5" class="devicon-html5-plain-wordmark"></i>
+  git: https://github.com/chrisbourgeonnier/blog
+  url: https://rails-blog-nect.onrender.com/
+
 - name: GIF Search
   featured: none
   slogan: A Giphy GIF Searcher
@@ -34,7 +44,8 @@
   description: The filtering app uses AJAX to asynchronously update a list of suggestions without reloading the page. The data comes from a JSON file with over 10,000 French cities.
   image: projects/french-cities.jpg
   detail: french-cities.html
-  tech: AJAX   JSON  <i class="devicon-javascript-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
+  tech: AJAX
+            <i title="JSON" class="devicon-json-plain"></i><i class="devicon-javascript-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
   git: https://github.com/chrisbourgeonnier/city-search-france
   url: https://chrisbourgeonnier.github.io/city-search-france/
 
@@ -48,23 +59,13 @@
   git: https://github.com/chrisbourgeonnier/scott-quotes
   url: https://chrisbourgeonnier.github.io/scott-quotes/
 
-- name: The Voiceinator 5000
-  featured: none
-  slogan: A speech-synthesis app reading out loud your notes in various languages
-  description: This app is one of the JavaScript30 challenges from Wes Bos. It uses a variety of voices from the OS and browser, and works with different languages. Now it also works with Firefox.
-  image: projects/voiceinator5000.jpg
-  detail: voiceinator5000.html
-  tech: <i class="devicon-javascript-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
-  git: https://github.com/chrisbourgeonnier/speech-synthesis
-  url: https://chrisbourgeonnier.github.io/speech-synthesis/
-
 - name: AI Summarizer
   featured: none
   slogan: A text summarizing app using AI
   description: This project was built for a Postman API certification. It turns text up to 100,000 characters long into a 100-character summary. It was written with Replit, used an API created with Postman, and the Hugging Face AI.
   image: projects/ai-summarizer.jpg
   detail: ai-summarizer.html
-  tech: <i class="devicon-javascript-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i>   Replit
+  tech: <i class="devicon-javascript-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i title="Postman" class="devicon-postman-plain"></i>  <i title="Replit" class="devicon-replit-plain"></i>
   git: https://replit.com/@chrisbourg/AI-Text-Summarizer-App-Starter-Template
   url: none
 
@@ -77,6 +78,16 @@
   tech: <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
   git: https://github.com/chrisbourgeonnier/landing/
   url: https://chrisbourgeonnier.github.io/landing/
+
+# - name: The Voiceinator 5000
+#   featured: none
+#   slogan: A speech-synthesis app reading out loud your notes in various languages
+#   description: This app is one of the JavaScript30 challenges from Wes Bos. It uses a variety of voices from the OS and browser, and works with different languages. Now it also works with Firefox.
+#   image: projects/voiceinator5000.jpg
+#   detail: voiceinator5000.html
+#   tech: <i class="devicon-javascript-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
+#   git: https://github.com/chrisbourgeonnier/speech-synthesis
+#   url: https://chrisbourgeonnier.github.io/speech-synthesis/
 
 # - name: Profile
 #   slogan: A Profile Page with an Iron Man twist
