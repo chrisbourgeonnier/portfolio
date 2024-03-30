@@ -20,7 +20,14 @@ h4 {
 
 .egg {
   font-size: 20px;
+  margin: auto;
+  width: 4rem;
+}
+
+.egg:hover {
+  font-size: 2em;
   margin-top: 5px;
+  // transition: size 1s;
 }
 
 body {

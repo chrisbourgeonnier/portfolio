@@ -20,11 +20,11 @@
 
 - name: Chris' Blog
   featured: none
-  slogan: A not-so-serious blog about AI and stuff
-  description: A blog app based on the GoRails blog project. It runs on Ruby/Rails, with gems like Devise for authentication, pagy (pagination), vips (active storage image processor), action_text (to edit rich text). The website is hosted on Render with a PostGreSQL database, media content is stored on AWS S3 and Tailwind handles the CSS.
+  slogan: A blog app about AI and stuff
+  description: Based on the GoRails blog project, it runs on Ruby/Rails, with gems like Devise (authentication), pagy (pagination), vips (active storage image processor), action_text (to edit rich text) and TailwindCSS styling. The website is hosted on Render with a PostGreSQL database, media content is stored on AWS S3.
   image: projects/blog03.jpg
   detail: blog.html
-  tech: <i title="Ruby" class="devicon-ruby-plain-wordmark"></i><i title="Rails" class="devicon-rails-plain-wordmark"></i><i title="PostGreSQL" class="devicon-postgresql-plain-wordmark"></i><i title="Amazon Web Services" class="fa-brands fa-aws"></i><i title="JavaScript" class="fa-brands fa-js"></i><i title="TailwindCSS" class="devicon-tailwindcss-plain"></i><i title="CSS3" class="devicon-css3-plain-wordmark"></i><i title="HTML5" class="devicon-html5-plain-wordmark"></i>
+  tech: <i title="Ruby" class="devicon-ruby-plain-wordmark"></i><i title="Rails" class="devicon-rails-plain-wordmark"></i><i title="PostGreSQL" class="devicon-postgresql-plain-wordmark"></i><i title="Amazon Web Services" class="fa-brands fa-aws"></i><i title="JavaScript" class="fa-brands fa-js"></i><i title="TailwindCSS" class="devicon-tailwindcss-plain"></i>
   git: https://github.com/chrisbourgeonnier/blog
   url: https://rails-blog-nect.onrender.com/
 
