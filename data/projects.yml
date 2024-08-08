@@ -21,12 +21,12 @@
 - name: Chris' Blog
   featured: none
   slogan: A blog app about AI and stuff
-  description: Based on the GoRails blog project, it runs on Ruby/Rails, with gems like Devise (authentication), pagy (pagination), vips (active storage image processor), action_text (to edit rich text) and TailwindCSS styling. The website is hosted on Render with a PostGreSQL database, and AWS S3 storage.
+  description: Based on the GoRails blog project, it runs on Ruby/Rails, with gems like Devise (authentication), pagy (pagination), vips (active storage image processor), action_text (to edit rich text) and TailwindCSS styling. The website was hosted on Render with a PostGreSQL database, and AWS S3 storage.
   image: projects/blog03.jpg
   detail: blog.html
   tech: <i title="Ruby" class="devicon-ruby-plain-wordmark"></i><i title="Rails" class="devicon-rails-plain-wordmark"></i><i title="PostGreSQL" class="devicon-postgresql-plain-wordmark"></i><i title="Amazon Web Services" class="fa-brands fa-aws"></i><i title="JavaScript" class="fa-brands fa-js"></i><i title="TailwindCSS" class="devicon-tailwindcss-plain"></i>
   git: https://github.com/chrisbourgeonnier/blog
-  url: https://rails-blog-nect.onrender.com/
+  url: none
 
 - name: GIF Search
   featured: none
@@ -49,6 +49,16 @@
   git: https://github.com/chrisbourgeonnier/city-search-france
   url: https://chrisbourgeonnier.github.io/city-search-france/
 
+- name: Totoro Timer
+  featured: none
+  slogan: A customizable Pomodoro timer
+  description: I figured I could make my own timer rather than using others' ones. This one has a Totoro twist, times (and background!) can be customized. Feel free to use it!
+  image: projects/totoro.jpg
+  detail: totoro.html
+  tech: <i class="devicon-javascript-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
+  git: https://github.com/chrisbourgeonnier/totoro-timer
+  url: https://chrisbourgeonnier.github.io/totoro-timer/
+
 - name: Great Scott Quotes
   featured: none
   slogan: Over 100 quotes from the self-proclaimed "World's Best Boss"
@@ -69,15 +79,15 @@
   git: https://replit.com/@chrisbourg/AI-Text-Summarizer-App-Starter-Template
   url: none
 
-- name: My Akiya Home - Landing page
-  featured: none
-  slogan: Finding a house in Japan has never been easier!
-  description: A simple landing page deployed as a GitHub page.
-  image: projects/akiya.jpg
-  detail: akiya.html
-  tech: <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
-  git: https://github.com/chrisbourgeonnier/landing/
-  url: https://chrisbourgeonnier.github.io/landing/
+# - name: My Akiya Home - Landing page
+#   featured: none
+#   slogan: Finding a house in Japan has never been easier!
+#   description: A simple landing page deployed as a GitHub page.
+#   image: projects/akiya.jpg
+#   detail: akiya.html
+#   tech: <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> <i class="devicon-github-original-wordmark"></i> <i class="devicon-git-plain-wordmark"></i>
+#   git: https://github.com/chrisbourgeonnier/landing/
+#   url: https://chrisbourgeonnier.github.io/landing/
 
 # - name: The Voiceinator 5000
 #   featured: none
