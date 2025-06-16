@@ -6,7 +6,8 @@
   detail: basho.html
   tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-bootstrap-plain-wordmark"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i class="devicon-heroku-line-wordmark"></i> <i class="devicon-figma-plain"></i>
   git: https://github.com/chrisbourgeonnier/basho
-  url: https://www.basho-app.me/
+  # url: https://www.basho-app.me/
+  url: none
 
 - name: HeroHub
   featured: featured
