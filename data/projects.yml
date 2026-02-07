@@ -17,7 +17,7 @@
   detail: herohub.html
   tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-bootstrap-plain-wordmark"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i class="devicon-heroku-line-wordmark"></i>
   git: https://github.com/chrisbourgeonnier/herohub
-  url: https://herohub-tokyo-b8670f0c5306.herokuapp.com/
+  url: none
 
 - name: Chris' Blog
   featured: none
