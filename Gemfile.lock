@@ -75,6 +75,7 @@ GEM
       uglifier (~> 3.0)
       webrick
     minitest (5.16.3)
+    mutex_m
     padrino-helpers (0.15.1)
       i18n (>= 0.6.7, < 2)
       padrino-support (= 0.15.1)
