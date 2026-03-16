@@ -9,6 +9,16 @@
   # url: https://www.basho-app.me/
   url: none
 
+- name: Test Drive Booking System
+  featured: featured
+  slogan: A booking platform for a prestige vehicles specialist.
+  description: Browse classic and prestige vehicles, request test drives, and manage bookings. It integrates an interactive calendar system (FullcalendarJS), user accounts, an admin dashboard, automated inventory import (with BeautifulSoup), and a robust email notification system.
+  image: projects/testdrive.jpg
+  detail: testdrive.html
+  tech: <i class="devicon-python-plain"></i> <i class="devicon-django-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i class="devicon-sqlite-plain"></i> <i class="devicon-amazonwebservices-plain-wordmark"></i>
+  git: https://github.com/chrisbourgeonnier/testdrive
+  url: none
+
 - name: HeroHub
   featured: featured
   slogan: In dire need for supernatural powers? Book a day with your favorite SuperHero
