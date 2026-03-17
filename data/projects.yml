@@ -19,6 +19,16 @@
   git: https://github.com/chrisbourgeonnier/testdrive
   url: none
 
+- name: DigitalVault
+  featured: featured
+  slogan: A secure, minimalist marketplace for digital downloads.
+  description: This project serves as a warmup for a larger project, focusing on rapid development, Rails and security best practices, clean UX, and assistance from AI (Perplexity).<br>It is hosted on Render, uses CloudFlare R2 for storage and Stripe for payments.
+  image: projects/digitalvault.png
+  detail: digitalvault.html
+  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i title="TailwindCSS" class="devicon-tailwindcss-plain"></i> <i class="devicon-cloudflare-plain-wordmark"></i> <i class="fa-brands fa-stripe"></i>
+  git: https://github.com/chrisbourgeonnier/digitalvault
+  url: https://digitalvault-mzj6.onrender.com
+
 - name: HeroHub
   featured: featured
   slogan: In dire need for supernatural powers? Book a day with your favorite SuperHero
@@ -32,10 +42,10 @@
 - name: Chris' Blog
   featured: none
   slogan: A blog app about AI and stuff
-  description: Based on the GoRails blog project, it runs on Ruby/Rails, with gems like Devise (authentication), pagy (pagination), vips (active storage image processor), action_text (to edit rich text) and TailwindCSS styling. The website was hosted on Render with a PostGreSQL database, and AWS S3 storage.
+  description: Based on the GoRails blog project, it runs on Ruby/Rails, with gems like Devise (authentication), pagy (pagination), vips (active storage image processor), action_text (to edit rich text) and TailwindCSS styling.<br>The website was hosted on Render with a PostGreSQL database, and AWS S3 storage.
   image: projects/blog03.jpg
   detail: blog.html
-  tech: <i title="Ruby" class="devicon-ruby-plain-wordmark"></i><i title="Rails" class="devicon-rails-plain-wordmark"></i><i title="PostGreSQL" class="devicon-postgresql-plain-wordmark"></i><i title="Amazon Web Services" class="fa-brands fa-aws"></i><i title="JavaScript" class="fa-brands fa-js"></i><i title="TailwindCSS" class="devicon-tailwindcss-plain"></i>
+  tech: <i title="Ruby" class="devicon-ruby-plain-wordmark"></i><i title="Rails" class="devicon-rails-plain-wordmark"></i><i title="PostGreSQL" class="devicon-postgresql-plain-wordmark"></i><i title="Amazon Web Services" class="fa-brands fa-aws"></i><i title="JavaScript" class="fa-brands fa-js"></i> <i title="TailwindCSS" class="devicon-tailwindcss-plain"></i>
   git: https://github.com/chrisbourgeonnier/blog
   url: none
 
