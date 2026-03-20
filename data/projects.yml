@@ -4,7 +4,7 @@
   description: BASHO is a mobile-first web app in which you can curate your map of Tokyo with the places that matter to you. BASHO lets you sort and customize your pins, use your own photo, and allows you to create as many tags as you want to label your places and easily find them again.
   image: projects/basho.jpg
   detail: basho.html
-  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-bootstrap-plain-wordmark"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i class="devicon-heroku-line-wordmark"></i> <i class="devicon-figma-plain"></i>
+  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-bootstrap-plain-wordmark"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i class="devicon-heroku-line-wordmark"></i> <i class="devicon-figma-plain"></i> (4<i style="font-size:1rem" class="fa-solid fa-user"></i>)
   git: https://github.com/chrisbourgeonnier/basho
   # url: https://www.basho-app.me/
   url: none
@@ -15,9 +15,11 @@
   description: Browse classic and prestige vehicles, request test drives, and manage bookings. It integrates an interactive calendar system (FullcalendarJS), user accounts, an admin dashboard, automated inventory import (with BeautifulSoup), and a robust email notification system.
   image: projects/testdrive.jpg
   detail: testdrive.html
-  tech: <i class="devicon-python-plain"></i> <i class="devicon-django-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i class="devicon-sqlite-plain"></i> <i class="devicon-amazonwebservices-plain-wordmark"></i>
+  tech: <i class="devicon-python-plain"></i> <i class="devicon-django-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i class="devicon-amazonwebservices-plain-wordmark"></i> <i class="devicon-figma-plain"></i> (2<i style="font-size:1rem" class="fa-solid fa-user"></i>)
   git: https://github.com/chrisbourgeonnier/testdrive
   url: none
+  other: Figma Prototype
+  otherurl: https://www.figma.com/proto/Vz1CWtgnxLBciWK1htsUCd/Richmonds?node-id=73-243&t=ibhmQRcZFWeT2zuj-1&starting-point-node-id=73%3A243&show-proto-sidebar=1
 
 - name: DigitalVault
   featured: featured
@@ -35,7 +37,7 @@
   description: HeroHub is a computer-first web app where users can book a superhero for a day. This fun project is a C2C platform working like an AirBnB website, where users can book a service, and owners(superheroes) can either choose to accept or decline the booking.
   image: projects/herohub.jpg
   detail: herohub.html
-  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-bootstrap-plain-wordmark"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i class="devicon-heroku-line-wordmark"></i>
+  tech: <i class="devicon-ruby-plain-wordmark"></i> <i class="devicon-rails-plain-wordmark"></i> <i class="devicon-javascript-plain"></i> <i class="devicon-bootstrap-plain-wordmark"></i> <i class="devicon-postgresql-plain-wordmark"></i> <i class="devicon-heroku-line-wordmark"></i> (4<i style="font-size:1rem" class="fa-solid fa-user"></i>)
   git: https://github.com/chrisbourgeonnier/herohub
   url: none
 

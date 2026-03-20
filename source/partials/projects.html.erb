@@ -27,13 +27,14 @@
                     <% link_to project.git, class: 'links mx-2', target: '_blank' do %>
                       <button class="btn btn-flat">GitHub</button>
                     <% end %>
-                    <% if project.url == "none" %>
-                      <% link_to project.url, class: 'd-none', target: '_blank' do %>
-                        <button class="btn btn-flat">Visit the Website</button>
-                      <% end %>
-                    <% else %>
+                    <% if project.url&.match?(/http/) || project.url.present? && project.url != "none" %>
                       <% link_to project.url, class: 'links mx-2', target: '_blank' do %>
                         <button class="btn btn-flat">Visit the Website</button>
+                      <% end %>
+                    <% end %>
+                    <% if project.other.present? && project.otherurl != "none" %>
+                      <% link_to project.otherurl, class: 'links mx-2', target: '_blank' do %>
+                        <button class="btn btn-flat"><%=project.other%></button>
                       <% end %>
                     <% end %>
                   </div>
