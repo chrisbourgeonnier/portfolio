@@ -51,6 +51,17 @@
   git: https://github.com/chrisbourgeonnier/blog
   url: none
 
+- name: Medicine Reminder
+  featured: none
+  slogan: A lightweight, no-fuss app to help you remember your daily medicine.
+  description: Static web app with no accounts, no servers, no subscriptions. Just open it, tap a button, and you're done. PWA Mobile first, the app saves your history locally and sends a notification at your preferred time if you haven't taken your medicine yet.
+  image: projects/med-reminder.png
+  detail: med-reminder.html
+  tech: <i class="devicon-javascript-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> PWA  <i class="devicon-github-original-wordmark"></i>
+  git: https://github.com/chrisbourgeonnier/medicine-reminder
+  url: https://chrisbourgeonnier.github.io/medicine-reminder/
+
+
 - name: GIF Search
   featured: none
   slogan: A Giphy GIF Searcher
