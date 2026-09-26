@@ -41,15 +41,15 @@
   git: https://github.com/chrisbourgeonnier/herohub
   url: none
 
-- name: Chris' Blog
+- name: Pawn Pause
   featured: none
-  slogan: A blog app about AI and stuff
-  description: Based on the GoRails blog project, it runs on Ruby/Rails, with gems like Devise (authentication), pagy (pagination), vips (active storage image processor), action_text (to edit rich text) and TailwindCSS styling.<br>The website was hosted on Render with a PostGreSQL database, and AWS S3 storage.
-  image: projects/blog03.jpg
-  detail: blog.html
-  tech: <i title="Ruby" class="devicon-ruby-plain-wordmark"></i><i title="Rails" class="devicon-rails-plain-wordmark"></i><i title="PostGreSQL" class="devicon-postgresql-plain-wordmark"></i><i title="Amazon Web Services" class="fa-brands fa-aws"></i><i title="JavaScript" class="fa-brands fa-js"></i> <i title="TailwindCSS" class="devicon-tailwindcss-plain"></i>
-  git: https://github.com/chrisbourgeonnier/blog
-  url: none
+  slogan: Save the game now. Play again later.
+  description: Pawn Pause is a small, mobile-first web app for saving the state of a Monopoly board game while the board is packed away. PWA Mobile first, the app saves your game locally and offers different board editions.
+  image: projects/pawn-pause.png
+  detail: pawn-pause.html
+  tech: <i class="devicon-javascript-plain"></i> <i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> PWA  <i class="devicon-github-original-wordmark"></i>
+  git: https://github.com/chrisbourgeonnier/pawn-pause
+  url: https://chrisbourgeonnier.github.io/pawn-pause/
 
 - name: Medicine Reminder
   featured: none
@@ -61,6 +61,15 @@
   git: https://github.com/chrisbourgeonnier/medicine-reminder
   url: https://chrisbourgeonnier.github.io/medicine-reminder/
 
+- name: Chris' Blog
+  featured: none
+  slogan: A blog app about AI and stuff
+  description: Based on the GoRails blog project, it runs on Ruby/Rails, with gems like Devise (authentication), pagy (pagination), vips (active storage image processor), action_text (to edit rich text) and TailwindCSS styling.<br>The website was hosted on Render with a PostGreSQL database, and AWS S3 storage.
+  image: projects/blog03.jpg
+  detail: blog.html
+  tech: <i title="Ruby" class="devicon-ruby-plain-wordmark"></i><i title="Rails" class="devicon-rails-plain-wordmark"></i><i title="PostGreSQL" class="devicon-postgresql-plain-wordmark"></i><i title="Amazon Web Services" class="fa-brands fa-aws"></i><i title="JavaScript" class="fa-brands fa-js"></i> <i title="TailwindCSS" class="devicon-tailwindcss-plain"></i>
+  git: https://github.com/chrisbourgeonnier/blog
+  url: none
 
 - name: GIF Search
   featured: none
